@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://havaianas.online/wp-content/uploads/2019/03/Havaianas-Wallpaper-21.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #FF0000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+h2 {
+    color: #FF0000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+/* Estilos do formulário */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="numero"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Adicione esta propriedade */
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos de resposta de validação */
+input:required:invalid,
+textarea:required:invalid {
+    border-color: #ff4d4d;
+}
+
+input:required:valid,
+textarea:required:valid {
+    border-color: #4caf50;
+}
